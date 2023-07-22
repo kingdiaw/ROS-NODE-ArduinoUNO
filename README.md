@@ -1,5 +1,5 @@
-# ROSserial_pub_sub
-This is a ROS node that running in Arduino UNO board. This node communicate with other node through Serial Communication using package [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials) 
+# ROS node using Arduino UNO board
+This is a ROS node that running in Arduino UNO board. This node communicate with other node through Serial Communication using package [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials) This node will **Publish** a topic name **button_press** and **Subscribe** to topic name **toggle_led**.
 
 ## Testing (make sure PC host already installed with ROS)
 #### Step 1: Open New Terminal, then run following command
